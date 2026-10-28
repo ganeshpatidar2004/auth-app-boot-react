@@ -1,0 +1,27 @@
+# Java
+**/target/
+**/build/
+*.class
+
+# React
+**/node_modules/
+**/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript build cache
+*.tsbuildinfo
